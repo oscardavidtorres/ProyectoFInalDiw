@@ -24,10 +24,72 @@
     padding: 0;
     margin: 0;
 }
+.header{
+    background-color: var(--secundario-azul);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
 
+.header__logo {
+    width: 23vw;
+}
 
+.main{
+    background-color: var(--extra-negro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+}
+.main__h2{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--verde-primario);
 
+}
+.main__img{
+    width: 25vw;
+
+}
+.main__form{
+    display: flex;
+    flex-direction: column;
+    
+    border: solid 1px var(--blanco);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 40vw;
+    height: 60vw;
+}
+.main__form__label{
+    color: var(--blanco);
+    padding: .5rem 0;
+
+}
+.main__form__input{
+    background-color: var(--extra-negro);
+    border: solid 2px var(--blanco);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: .5rem 0;
+    
+}
+.main__form__input__submit{
+   background-color: var(--verde-tercero);
+   color: var(--blanco);
+   width: 15rem;
+   height: 2.5rem;
+   border-radius: 15px;
+   border: solid 1px var(--verde-tercero);
+   margin: 0 auto;
+}
+.main__form__enlace{
+    color: var(--blanco);
+    text-align: center;
+}
 a{
     text-decoration: none;
 }
