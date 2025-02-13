@@ -84,8 +84,6 @@ a{
 }
 
 
-
-
 .main{
     background-color: var(--extra-negro);
     
@@ -93,22 +91,10 @@ a{
 
 .main__section1{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
-
-.main__section1__container1{
-padding: 2rem;
-}
-.main__section1__container1__h2{
-    color: var(--verde-primario);
-    font-size: 3rem;
-}
-.main__section1__container1__span{
-    color: var(--extra-grisaceo);
-    font-size: 3rem;
-
-}.main__section1__container2 {
+.main__section1__container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,6 +120,9 @@ padding: 2rem;
     height: 3vw;
     object-fit: contain;
 }
+
+
+
 .main__section2{
     display: flex;
     align-items: center;
@@ -169,32 +158,9 @@ padding: 2rem;
     width: 2.5rem;
     height: 2.5rem;
 }
-.main__section3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-.main__section3__container1{
-    width: 5.1rem;
-    height: 5.1rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 1.5rem 1.5rem;
-}
-.main__section3__container1__img{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    
-    border: solid 3px var(--verde-primario);
-}
-.main__section3__container1__p{
-    color: var(--blanco);
-    font-size: 1.5rem;
-}
+
+
 .main__section4{
     padding: 2rem;
 }
@@ -358,6 +324,28 @@ padding: 2rem;
 .main__section4__container1__container__estadisticas__p>span{
     color: var(--verde-primario);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
