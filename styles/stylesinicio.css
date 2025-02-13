@@ -108,7 +108,8 @@ padding: 2rem;
     color: var(--extra-grisaceo);
     font-size: 3rem;
 
-}.main__section1__container2 {
+}
+.main__section1__container2 {
     display: flex;
     justify-content: center;
     align-items: center;
