@@ -26,3 +26,6 @@ El Proyecto Final del módulo de Diseño de Interfaces Web consiste en diseñar 
   - Ayuda a mejorar la clasificación del equipo dentro de la plataforma.
 
 En resumen, **OneGoal** es una plataforma de apuestas deportivas con un enfoque social, donde los usuarios pueden competir, conocer gente afín, formar comunidades y ganar dinero a través del sistema de Pools.
+### Tecnologias usadas
+Se ha usado para el diseño y desarrollo de las interfaces de esta pagina web Figma para el diseño.
+Html,CSS para la creacion de la pagina web ademas del uso de git y github para el control de versiones
