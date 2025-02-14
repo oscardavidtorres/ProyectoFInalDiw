@@ -28,7 +28,9 @@
 a{
     text-decoration: none;
 }
-
+body {
+    font-family: "Montserrat", serif;
+}
 .header{
     background-color: var(--secundario-azul);
     width: 100%;

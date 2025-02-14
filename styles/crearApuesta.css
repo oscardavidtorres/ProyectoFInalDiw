@@ -28,7 +28,6 @@
 a{
     text-decoration: none;
 }
-
 body {
     font-family: "Montserrat", serif;
 }
@@ -38,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vw;
+    height: 10rem;
 }
 .header__section1{
 
@@ -86,24 +85,36 @@ body {
     font-size: 1.3rem;
 }
 
+
 .main{
     background-color: var(--extra-negro);
+    display: flex;
+    flex-direction: column;
 }
-
-
 .main__section1{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: space-between;
 }
-.main__section1__container2 {
+.main__section1__container1{
+    font-size: 2rem;
+    color: var(--blanco);
+    padding: 2rem;
+}
+.main__section1__container2{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
+.main__section1__container2__h1{
+    color: var(--extra-grisaceo);
+    text-align: center;
+    font-size: 3rem;
+}
 
-.main__section1__container2__enlace {
+
+.main__section1__container2__enlace{
     background-color: var(--verde-quinto);  
     padding: 1rem;
     margin: 1rem;
@@ -117,80 +128,109 @@ body {
     text-align: center;
 }
 
-.main__section1__container2__enlace__img {
+.main__section1__container2__enlace__img{
     width: 3vw;
     height: 3vw;
     object-fit: contain;
 }
 
 
+
 .main__section2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    position: relative; 
 }
 
-.main__section2__aside {
-    position: absolute; 
-    left: 0;
-    top: 30%;
-    transform: translateY(-50%); 
-    border-right: 1px solid var(--blanco);
-    font-size: 1.4rem;
-    padding: 3rem;
-}
-.main__section2__aside__enlace{
-    color: var(--blanco);
-    
-}
-.main__section2__aside__h3{
-    margin: 2rem 0;
-}
-.main__section2__container {
+.main__section2__form {
+    background: var(--extra-negro);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50vw;
+    height: 100%;
     display: flex;
+    border: 1px solid var(--blanco);
     flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem ;
+}
+
+.main__section2__form__label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--blanco);
+}
+
+.main__section2__form__input {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--extra-negro);
+    color: var(--blanco);
+    width: 100%;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+.main__section2__form__input:focus {
+    border: 1px solid var(--verde-primario);
+}
+
+.main__section2__form__checkbox-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: var(--blanco);
+}
+
+.main__section2__form__checkbox {
+    appearance: none; /* Oculta el checkbox predeterminado */
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Borde blanco semitransparente */
+    border-radius: 50%; /* Lo hace redondo */
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px; 
-    padding: 20px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
 }
-
-
-.main__section2__h2{
-    font-size: 2.5rem;
-    text-align: center;
-    color: var(--blanco);
+.main__section2__form__checkbox:checked {
+    border: 2px solid var(--extra-negro);
+    background: var(--verde-primario); /* Fondo azul transparente */
 }
-.main__section2__form{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-}
-
-.main__section2__form__label{
-    color: var(--blanco);
-    margin: 1rem 0;
-
-}
-.main__section2__form__input{
+.main__section2__form__submit {
     background-color: var(--extra-negro);
-    border: solid 1px var(--blanco);
-    padding: .7rem;
-    border-radius: 10px;
-    
-}
-/* .main__section2__form__input__submit{
-    margin-top: 1rem;
-    background-color: ;
-} */
-.main__section2__form__img{
-    width: 4rem;
-    background-color: var(--extra-grisaceo);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border: none;
     border-radius: 5px;
-    margin: 0 0 1rem 0;
+    cursor: pointer;
+    border: 1px solid var(--blanco);
+    transition: background 0.3s ease-in-out;
 }
+
+.main__section2__form__submit:hover {
+    background: var(--color-primario-hover, #0056b3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,127 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Goal</title>
+    <link rel="stylesheet" href="../styles/crearApuesta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
      
-    <header>
-        <section>
-            <img src="" alt="logo">
+    <header class="header">
+        <section class="header__section1">
+            <img class="header__section1__logo" src="../assets/logoOneGoal.webp" alt="logo">
         </section>
 
-        <section>
-            <nav>
-                <div>
-                    <a>
-                        <img src="" alt="">
+        <section class="header__section2">
+            <nav class="header__section2__nav">
+                <div class="header__section2__nav__container">
+                    <a  href="MercadoApuestas.html" class="header__section2__nav__container__enlace">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/apuestaIcon.png" alt="iconoapuesta">
                     </a>
-                    <p>Apuestas</p>
+                    <p class="header__section2__nav__container__p">Apuestas</p>
                 </div>
-                <div>
-                    <a>
-                        <img src="" alt="">
+                <div class="header__section2__nav__container">
+                    <a class="header__section2__nav__container__enlace">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/rankingicon.png" alt="iconoRanking">
                     </a>
-                    <p>Ranking</p>
+                    <p class="header__section2__nav__container__p">Ranking</p>
                 </div>
-                <div>
-                    <a>
-                        <img src="" alt="">
+                <div class="header__section2__nav__container">
+                    <a class="header__section2__nav__container__enlace">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/socialIcon.png" alt="socialIcon">
                     </a>
-                    <p>Social</p>
+                    <p class="header__section2__nav__container__p">Social</p>
                 </div>
-                <div>
-                    <a>
-                        <img src="" alt="">
+                <div class="header__section2__nav__container">
+                    <a class="header__section2__nav__container__enlace">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/equipoIcon.png" alt="equipoIcon">
                     </a>
-                    <p>Equipo</p>
+                    <p class="header__section2__nav__container__p">Equipo</p>
                 </div>
-                <div>
-                    <a>
-                        <img src="" alt="">
+                <div class="header__section2__nav__container">
+                    <a href="../pages/Perfil.html" class="header__section2__nav__container__enlace">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/iconoPerfil.png" alt="iconoPerfil">
                     </a>
-                    <p>Perfil</p>
-                </div>
+                    <p class="header__section2__nav__container__p">Perfil</p>
+                </div>  
+               
             </nav>
-
+            
         </section>
     </header>
 
-
-    <main>
-        <section>
-            <div>
-                <h1>Crear Apuesta</h1>
+    <main class="main">
+        <section class="main__section1">
+            <div class="main__section1__container1">
+                <h2>Crear apuesta</h2>
             </div>
-
-            <div>
-                <a><img src="" alt="cartera"></a>
-                <a><img src="" alt="notificaciones"></a>
+            <div class="main__section1__container2">
+                <a class="main__section1__container2__enlace"><img class="main__section1__container2__enlace__img" src="../assets/carteraIcon.png" alt="cartera"></a>
+                <a class="main__section1__container2__enlace"><img class="main__section1__container2__enlace__img" src="../assets/notificacionesIcon.png" alt="notificaciones"></a>
             </div>
         </section>
 
-        <section>
-            <form>
-                <label for="tipo">Tipo</label>
-                <input type="checkbox" name="tipo" id="">
-                <input type="checkbox" name="tipo" id="">
-                <input type="checkbox" name="tipo" id="">
-                <label for="poolname">Nombre de Pool</label>
-                <input type="text" name="poolname" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-                <label for="usuario">Partido</label>
-                <input type="text" name="usuario" id="">
-
-                <input type="submit" value="Crear Apuesta">
+        <section class="main__section2">
+            <form class="main__section2__form">
+                <label class="main__section2__form__label" for="tipo">Tipo</label>
+                <div class="main__section2__form__checkbox-group">
+                    <input class="main__section2__form__checkbox" type="checkbox" name="tipo" id="">
+                    <label for="">Publico</label>
+                    <input class="main__section2__form__checkbox" type="checkbox" name="tipo" id="">
+                    <label for="">Privado</label>
+                    <input class="main__section2__form__checkbox" type="checkbox" name="tipo" id="">
+                    <label for="">Amigos</label>
+                </div>
+        
+                <label class="main__section2__form__label" for="poolname">Nombre de Pool</label>
+                <input class="main__section2__form__input" type="text" name="poolname" id="">
+        
+                <label class="main__section2__form__label" for="partido">Partido</label>
+                <input class="main__section2__form__input" type="text" name="partido" id="">
+        
+                <label class="main__section2__form__label" for="monto">Monto</label>
+                <input class="main__section2__form__input" type="text" name="monto" id="">
+        
+                <label class="main__section2__form__label" for="tipoApuesta">Tipo Apuesta</label>
+                <input class="main__section2__form__input" type="text" name="tipoApuesta" id="">
+        
+                <label class="main__section2__form__label" for="contrasena">Contraseña</label>
+                <input class="main__section2__form__input" type="password" name="contrasena" id="">
+        
+                <label class="main__section2__form__label" for="codigoInvitacion">Código Invitación</label>
+                <input class="main__section2__form__input" type="text" name="codigoInvitacion" id="">
+        
+                <label class="main__section2__form__label" for="numPersonas">Número de personas</label>
+                <input class="main__section2__form__input" type="number" name="numPersonas" id="">
+        
+                <label class="main__section2__form__label" for="checkout">Posibilidad checkout</label>
+                <div class="main__section2__form__checkbox-group">
+                    <input class="main__section2__form__checkbox" type="checkbox" name="checkout" value="si" id="">
+                    <label for="">Si</label>
+                    <input class="main__section2__form__checkbox" type="checkbox" name="checkout" value="no" id="">
+                    <label for="">No</label>
+                </div>
+        
+                <label class="main__section2__form__label" for="tipoPool">Tipo Pool</label>
+                <div class="main__section2__form__checkbox-group">
+                   
+                    <input class="main__section2__form__checkbox" type="checkbox" name="tipoPool" id="">
+                    <label for="">Competitivo</label>
+                    <input class="main__section2__form__checkbox" type="checkbox" name="tipoPool" id="">
+                    <label for="">Amistoso</label>
+                    <input class="main__section2__form__checkbox" type="checkbox" name="tipoPool" id="">
+                    <label for="">Casual</label>
+                </div>
+        
+                <input class="main__section2__form__submit" type="submit" value="Crear Apuesta">
             </form>
         </section>
+        
 
 
     </main>
 
 
-    <footer>
-        <section>
-            <img src="" alt="">
+    <footer class="footer">
+        <section class="footer__seccion1">
+            <img class="footer__seccion1__img" src="../assets/logoOneGoal.png" alt="logo">
         </section>
-        <section>
-            <h3>Nosotros</h3>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <section class="footer__seccion2">
+            <h3 class="footer__seccion2__h3">Nosotros</h3>
+            <a class="footer__seccion2__enlace" href="#">-Reglas</a>
+            <a class="footer__seccion2__enlace" href="#">-Cookies</a>
+            <a class="footer__seccion2__enlace" href="#">-Privacidad</a>
+            <a class="footer__seccion2__enlace" href="#">-Juego Seguro</a>
         </section>
-        <section>
-            <h3>Ayuda</h3>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <section class="footer__seccion3">
+            <h3 class="footer__seccion3__h3">Ayuda</h3>
+            <a class="footer__seccion3__enlace" href="#">-Ayuda</a>
+            <a class="footer__seccion3__enlace" href="#">-Contacto</a>
+            <a class="footer__seccion3__enlace" href="#">-Protección</a>
         </section>
-        <section>
-            <h3>Socials</h3>
-            <div>
-                <a><img src="" alt=""></a>
+        <section class="footer__seccion4">
+            <h3 class="footer__seccion4__h3">Socials</h3>
+            <div class="footer__seccion4__container">
+                <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="youtube_icono"></a>
+                <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="instagram_icono"></a>
+                <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="facebook_icono"></a>
             </div>
-            <div>
-                <a><img src="" alt=""></a>
+            <div class="footer__seccion4__apps">
+                <a class="footer__seccion4__enlace" href="#"><img class="footer__seccion4__img" src="../assets/appStore.png" alt="appstore_icono"></a>
+                <a class="footer__seccion4__enlace" href="#"><img class="footer__seccion4__img" src="../assets/android.png" alt="android_icono"></a>
             </div>
-            <div>
-                <a><img src="" alt=""></a>
-            </div>
-            <a><img src="" alt=""></a>
-            <a><img src="" alt=""></a>
         </section>
     </footer>
 

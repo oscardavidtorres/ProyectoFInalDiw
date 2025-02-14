@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Goal</title>
     <link rel="stylesheet" href="../styles/stylesperfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -22,7 +25,7 @@
                     <p class="header__section2__nav__container__p">Apuestas</p>
                 </div>
                 <div class="header__section2__nav__container">
-                    <a class="header__section2__nav__container__enlace">
+                    <a href="RankingDesafios.html" class="header__section2__nav__container__enlace">
                         <img class="header__section2__nav__container__enlace__img" src="../assets/rankingicon.png" alt="iconoRanking">
                     </a>
                     <p class="header__section2__nav__container__p">Ranking</p>
@@ -67,18 +70,19 @@
         <section class="main__section2">
 
             <aside class="main__section2__aside">
-                <h3><a class="main__section2__aside__enlace" href="">Mi Perfil</a></h3>
-                <h3><a class="main__section2__aside__enlace" href="">Historial</a></h3>
-                <h3><a class="main__section2__aside__enlace" href="">Saldo</a></h3>
-                <h3><a class="main__section2__aside__enlace" href="">Notificaciones</a></h3>
-                <h3><a class="main__section2__aside__enlace" href="">Privacidad</a></h3>
-                <h3><a class="main__section2__aside__enlace" href="">Ayuda</a></h3>
-                <h3><a class="main__section2__aside__enlace" href="">Invitacion</a></h3>
+                <h3 class="main__section2__aside__h3" ><a class="main__section2__aside__enlace" href="">Mi Perfil</a></h3>
+                <h3 class="main__section2__aside__h3"><a class="main__section2__aside__enlace" href="">Historial</a></h3>
+                <h3 class="main__section2__aside__h3"><a class="main__section2__aside__enlace" href="">Saldo</a></h3>
+                <h3 class="main__section2__aside__h3"><a class="main__section2__aside__enlace" href="">Notificaciones</a></h3>
+                <h3 class="main__section2__aside__h3"><a class="main__section2__aside__enlace" href="">Privacidad</a></h3>
+                <h3 class="main__section2__aside__h3"><a class="main__section2__aside__enlace" href="">Ayuda</a></h3>
+                <h3 class="main__section2__aside__h3"><a class="main__section2__aside__enlace" href="">Invitacion</a></h3>
                 
 
             </aside>
-
-            <h2 class="main__section2__h2">General</h2>
+            <div class="main__section2__container">
+                <h2 class="main__section2__h2">General</h2>
+           
             <form class="main__section2__form" action="">
                 <label class="main__section2__form__label" for="usuario">Nombre de usuario</label>
                 <input class="main__section2__form__input" type="text" name="usuario" id="">
@@ -87,13 +91,16 @@
                 <label class="main__section2__form__label" for="usuario">Nombre de usuario</label>
                 <input class="main__section2__form__input" type="text" name="usuario" id="">
                 <label class="main__section2__form__label" for="usuario">Avatar</label>
-                <input class="main__section2__form__input" type="file" name="usuario" id="">
+                <img class="main__section2__form__img" src="../assets/iconoPerfil.png" alt="imagenuser"/>
+                <input class="main__section2__form__inputfile" type="file" name="usuario" id="">
                 <label class="main__section2__form__label" for="estado">Estado</label>
                 <input class="main__section2__form__input" type="text" name="estado">
 
 
+                <!-- <input class="main__section2__form__input__submit" type="submit" value="Guardar"> -->
+                
             </form>
-
+        </div> 
 
 
         </section>
