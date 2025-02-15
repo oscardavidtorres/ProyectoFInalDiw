@@ -26,7 +26,7 @@
 }
 
 body {
-    font-family: "Montserrat", serif;
+    font-family: "Gruppo", serif;
 }
 
 .header{
@@ -232,6 +232,40 @@ a{
         font-size: 1rem;
     }
 
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--extra-gris);
+        border-radius: 10px;
+        padding: .5rem;
+        width: 30vw;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+        right: 100%;  
+        top: 0;
+        margin-right: 10px; 
+
+    }
+    .dropdow-content__elemento{
+        color: var(--blanco);
+        border: 1px solid var(--blanco);
+        margin: 10px;
+    }
+    
+    #cartera-toggle:checked ~ .dropdown-content {
+        display: block;
+    }
+    
+    #notificaciones-toggle:checked ~ .dropdown-content {
+        display: block;
+    }
+    
+    
+    .dropdown-content p {
+        color: var(--blanco);
+        font-size: .6rem;
+    }
+    
     .footer {
         flex-direction: column;
         text-align: center;

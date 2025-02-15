@@ -34,7 +34,7 @@ a{
 }
 
 body {
-    font-family: "Montserrat", serif;
+    font-family: "Gruppo", serif;
 }
 .header{
     background-color: var(--secundario-azul);
@@ -118,8 +118,8 @@ body {
 }
 .seccion2__derecha{
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 columnas, cada una con un ancho igual */
-    grid-template-rows: auto auto; /* 2 filas, cada una con altura automática según el contenido */
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
     gap: 3rem; 
     margin: 0 2rem;
     
@@ -288,14 +288,12 @@ body {
    
 }
 
-/* Estilos para las etiquetas */
 .main__section__form__label {
     color: var(--blanco);
     font-size: 1rem;
     font-weight: bold;
 }
 
-/* Estilos para los inputs */
 .main__section__form__input {
     width: 100%;
     padding: 0.8rem;
@@ -309,22 +307,25 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Efecto al hacer foco en los inputs */
+
 .main__section__form__input:focus {
     border: 2px solid var(--verde-primario);
     background-color: var(--extra-grisaceo);
 }
 
-/* Estilos para el botón */
-.main__section__form__input[type="submit"] {
+
+.main__section__form__input__enviar {
     background-color: var(--verde-primario);
     color: var(--extra-negro);
+    border: 1px solid var(--blanco);
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
+    padding: .5rem;
 }
 
-.main__section__form__input[type="submit"]:hover {
+.main__section__form__input__enviar:hover {
     background-color: var(--verde-secundario);
 }
 

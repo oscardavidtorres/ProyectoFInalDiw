@@ -30,7 +30,7 @@ a{
 }
 
 body {
-    font-family: "Montserrat", serif;
+    font-family: "Gruppo", serif;
 }
 .header{
     background-color: var(--secundario-azul);
@@ -71,8 +71,11 @@ body {
     width: 3vw;
     height: 3vw;
     object-fit: contain; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.header__section2__nav__container:hover .header__section2__nav__container__enlace__img {
+    transform: scale(1.2) rotate(5deg);
+}
 .header__section2__nav__container__enlace__img {
     width: 3vw;
     height: 3vw;
@@ -354,20 +357,31 @@ padding: 2rem;
 .main__section3__table {
     width: 50vw; 
     border-collapse: collapse; 
-    border: 1px solid var(--extra-negro);
-    background-color: var(--verde-tercero);
+    border: 2px solid var(--extra-negro);
+    background: linear-gradient(135deg, var(--verde-secundario), var(--verde-cuarto));
     border-radius: 20px;
     padding: 1.5rem;
     margin: 2rem 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 
 }
   
 .main__section3__table__tr__td{
-    border: 1px solid var(--extra-negro); 
-    padding: 1.5rem;
+    border: 1px solid var(--extra-negro);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--extra-negro);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .main__section3__table__tr__img{
     width: 60px;
+}
+.main__section3__table tr:hover {
+    background-color: var(--secundario-amarillo);
+    color: var(--extra-negro);
+    transition: background-color 0.3s ease-in-out;
 }
 .main__section3__table__tr__td2 {
     border-bottom: 1px solid var(--extra-negro); 
@@ -431,6 +445,35 @@ padding: 2rem;
     height: 20px;
     margin-left: 8px; 
 }
+
+.main__section3__table__tr__boton {
+    background-color: var(--secundario-azul);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.main__section3__table__tr__boton:hover {
+    background-color: var(--secundario-azulclaro);
+    transform: scale(1.05);
+}
+
+.main__section3__table__tr__botonn:active {
+    background-color: var(--secundario-amarillo);
+}
+
+
+
+
+
+
 
 .footer {
     background-color: var(--secundario-azul);
@@ -653,6 +696,45 @@ padding: 2rem;
         margin: 0.5rem 0;
     }
    
+    .toggle-input {
+        display: none;
+    }
+    
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--extra-gris);
+        border-radius: 10px;
+        padding: .5rem;
+        width: 30vw;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+        right: 100%;  
+        top: 0;
+        margin-right: 10px; 
+
+    }
+    .dropdow-content__elemento{
+        color: var(--blanco);
+        border: 1px solid var(--blanco);
+        margin: 10px;
+    }
+    
+    #cartera-toggle:checked ~ .dropdown-content {
+        display: block;
+    }
+    
+    #notificaciones-toggle:checked ~ .dropdown-content {
+        display: block;
+    }
+    
+    
+    .dropdown-content p {
+        color: var(--blanco);
+        font-size: .6rem;
+    }
+    
 
     .main__section4__creapuesta {
         position: relative;
