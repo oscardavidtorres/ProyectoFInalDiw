@@ -29,3 +29,15 @@ En resumen, **OneGoal** es una plataforma de apuestas deportivas con un enfoque 
 ### Tecnologias usadas
 Se ha usado para el diseño y desarrollo de las interfaces de esta pagina web Figma para el diseño.
 Html,CSS para la creacion de la pagina web ademas del uso de git y github para el control de versiones
+
+## Instalacion e instrucciones de Uso
+Este proyecto no requiere de ninguna instalacion al menos en esta version 0 de momento todo lo que se tiene que hacer es entrar a la web principal y para acceder al resto de contenido lo que hay que hacer es darle al boton "IniciarSesion/registro" donde accederemos a iniciar sesion de ahi le daremos a que no tenemos una cuenta para mas adelante acceder al registro registrarnos y acceder a la pagina Inicial donde podremos ir navegando a gusto propio. Las secciones Social, Equipo siguen en desarrollo al igual que la busqueda y los botones de filtro de busqueda como puede ser el Global
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+Eres libre de compartir, modificar y utilizar este trabajo con la condición de dar el crédito correspondiente.
+Para más información sobre el uso y atribuciones de este proyecto, consulta el archivo LICENSE.
+
+## Versiones
+Actualmente esta es la version 0 del proyecto pero se continuara trabajando en este a lo largo del tiempo y mejorando los elementos para que se vea mejor ademas de añadir paginas web que estan pendientes o funcionalidades no incluidas aun
