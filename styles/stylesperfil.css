@@ -96,6 +96,19 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
+
+.main__section1__container1{
+padding: 2rem;
+}
+.main__section1__container1__h2{
+    color: var(--verde-primario);
+    font-size: 3rem;
+}
+.main__section1__container1__span{
+    color: var(--extra-grisaceo);
+    font-size: 3rem;
+
+}
 .main__section1__container2 {
     display: flex;
     justify-content: center;
@@ -116,6 +129,52 @@ body {
     justify-content: center;
     text-align: center;
 }
+/* Estilo para los contenedores */
+.main__section1__container2__enlace {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Ocultar los checkbox */
+.toggle-input {
+    display: none;
+}
+
+/* Estilo para los desplegables */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--extra-gris);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20vw;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    right: 100%;  /* Hace que el desplegable esté a la izquierda */
+    top: 0;
+    margin-right: 10px; 
+}
+.dropdow-content__elemento{
+    color: var(--blanco);
+    border: 1px solid var(--blanco);
+    margin: 10px;
+}
+/* Mostrar el desplegable cuando el checkbox esté marcado */
+#cartera-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+#notificaciones-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+/* Opcional: Añadir animación */
+.dropdown-content p {
+    color: var(--blanco);
+    font-size: 1.2rem;
+}
+
 
 .main__section1__container2__enlace__img {
     width: 3vw;

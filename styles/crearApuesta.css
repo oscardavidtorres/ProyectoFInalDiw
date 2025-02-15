@@ -91,30 +91,33 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .main__section1{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
+
 .main__section1__container1{
-    font-size: 2rem;
-    color: var(--blanco);
-    padding: 2rem;
+padding: 2rem;
 }
-.main__section1__container2{
+.main__section1__container1__h2{
+    color: var(--verde-primario);
+    font-size: 3rem;
+}
+.main__section1__container1__span{
+    color: var(--extra-grisaceo);
+    font-size: 3rem;
+
+}
+.main__section1__container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
-.main__section1__container2__h1{
-    color: var(--extra-grisaceo);
-    text-align: center;
-    font-size: 3rem;
-}
 
-
-.main__section1__container2__enlace{
+.main__section1__container2__enlace {
     background-color: var(--verde-quinto);  
     padding: 1rem;
     margin: 1rem;
@@ -126,6 +129,49 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+/* Estilo para los contenedores */
+.main__section1__container2__enlace {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Ocultar los checkbox */
+.toggle-input {
+    display: none;
+}
+
+/* Estilo para los desplegables */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--extra-gris);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20vw;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    right: 100%;  /* Hace que el desplegable esté a la izquierda */
+    top: 0;
+    margin-right: 10px; 
+}
+.dropdow-content__elemento{
+    color: var(--blanco);
+    border: 1px solid var(--blanco);
+    margin: 10px;
+}
+#cartera-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+#notificaciones-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    color: var(--blanco);
+    font-size: 1.2rem;
 }
 
 .main__section1__container2__enlace__img{

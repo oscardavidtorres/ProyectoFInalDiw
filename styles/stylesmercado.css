@@ -91,11 +91,23 @@ body {
     background-color: var(--extra-negro);
     
 }
-
 .main__section1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.main__section1__container1{
+padding: 2rem;
+}
+.main__section1__container1__h2{
+    color: var(--verde-primario);
+    font-size: 3rem;
+}
+.main__section1__container1__span{
+    color: var(--extra-grisaceo);
+    font-size: 3rem;
+
 }
 .main__section1__container2 {
     display: flex;
@@ -117,13 +129,57 @@ body {
     justify-content: center;
     text-align: center;
 }
+/* Estilo para los contenedores */
+.main__section1__container2__enlace {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Ocultar los checkbox */
+.toggle-input {
+    display: none;
+}
+
+/* Estilo para los desplegables */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--extra-gris);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20vw;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    right: 100%;  /* Hace que el desplegable esté a la izquierda */
+    top: 0;
+    margin-right: 10px; 
+}
+.dropdow-content__elemento{
+    color: var(--blanco);
+    border: 1px solid var(--blanco);
+    margin: 10px;
+}
+/* Mostrar el desplegable cuando el checkbox esté marcado */
+#cartera-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+#notificaciones-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+/* Opcional: Añadir animación */
+.dropdown-content p {
+    color: var(--blanco);
+    font-size: 1.2rem;
+}
 
 .main__section1__container2__enlace__img {
     width: 3vw;
     height: 3vw;
     object-fit: contain;
 }
-
 
 
 .main__section2{
@@ -134,34 +190,47 @@ body {
     flex-direction: column;
     margin: 0;
 }
-.main__section2__form{
+
+.main__section2__form {
     margin: 0;
     padding: 0;
 }
-.main__section2__form__container{
+
+.main__section2__form__container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     background-color: var(--extra-grisaceo);
     width: 40vw;
     height: 3vw;
     border-radius: 20px;
-    border: solid 4px black;
+    border: solid 3px black;
+    padding: 0.5rem;
+    overflow: hidden; /* Evita que los bordes se solapen */
+}
 
-}
-.main__section2__form__container__input{
-    background-color: var(--extra-grisaceo);
-    height: 2.8vw;
-    width: 38vw;
-    border-radius: 20px;
-    border-left: 1px solid black;
-    
-}
-.main__section2__form__container__input__img{
+.main__section2__form__container__input__img {
     width: 2.5rem;
     height: 2.5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 0.5rem; /* Ajusta el espacio entre la lupa y el campo de texto */
 }
 
+.main__section2__form__container__input {
+    background-color: var(--extra-grisaceo);
+    height: 2.8vw;
+    width: 100%; 
+    border: none; 
+    padding-left: 10px;
+    border-radius: 0 20px 20px 0;
+    outline: none; 
+}
+
+.main__section2__form__container__input:focus {
+    outline: none;
+}
 
 
 .main__section4{
@@ -185,7 +254,7 @@ body {
 }
 .main__section4__container1__enlace{
     color: var(--blanco);
-    width: 6vw;
+    width: 8vw;
     text-align: center;
     border: solid 1px var(--blanco);
     font-size: 1.3rem;
@@ -253,7 +322,7 @@ body {
 .main__section4__container1__container__enlace{
     margin: 0 auto;
     color: var(--blanco);
-    width: 6vw;
+    width: 8vw;
     height: 4vh;
     text-align: center;
     border: solid 1px var(--blanco);
@@ -304,21 +373,8 @@ body {
     height: 20px;
     margin-left: 8px; 
 }
-.main__section4__container1__container__estadisticas{
-    display: flex;
-    justify-content: space-between;
-    height: 3.7vw;
-}
-.main__section4__container1__container__enlaceequipos{
-    margin: 0 auto;
-    color: var(--blanco);
-    width: 8vw;
-    height: 4vh;
-    text-align: center;
-    border: solid 1px var(--blanco);
-    font-size: 1.3rem;
-    border-radius: 10px;
-}
+
+
 .main__section4__container1__container__estadisticas__p{
     color: var(--blanco);
     font-size: 1.2rem;
@@ -327,37 +383,6 @@ body {
 .main__section4__container1__container__estadisticas__p>span{
     color: var(--verde-primario);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer {

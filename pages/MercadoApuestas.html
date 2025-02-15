@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <section class="header__section1">
-            <img class="header__section1__logo" src="../assets/logoOneGoal.webp" alt="logo">
+            <a href="PaginaInicio.html"><img class="header__section1__logo" src="../assets/logoOneGoal.webp" alt="logo"></a>
         </section>
 
         <section class="header__section2">
@@ -57,18 +57,50 @@
 
         <section class="main__section1">
             <div class="main__section1__container2">
-                <a class="main__section1__container2__enlace"><img class="main__section1__container2__enlace__img" src="../assets/carteraIcon.png" alt="cartera"></a>
-                <a class="main__section1__container2__enlace"><img class="main__section1__container2__enlace__img" src="../assets/notificacionesIcon.png" alt="notificaciones"></a>
+                <div class="main__section1__container2__enlace">
+                    <input type="checkbox" id="cartera-toggle" class="toggle-input">
+                    <label for="cartera-toggle">
+                        <img class="main__section1__container2__enlace__img" src="../assets/carteraIcon.png" alt="cartera">
+                    </label>
+                    <div class="dropdown-content">
+                        
+                            <p>Tienes 22,80€</p>
+                            <a>Añadir</a>
+                       
+                        
+
+                    </div>
+                </div>
+            
+                <div class="main__section1__container2__enlace">
+                    <input type="checkbox" id="notificaciones-toggle" class="toggle-input">
+                    <label for="notificaciones-toggle">
+                        <img class="main__section1__container2__enlace__img" src="../assets/notificacionesIcon.png" alt="notificaciones">
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdow-content__elemento">
+                            <p>Tienes 3 nuevas notificaciones</p>
+                        </div>
+                        <div class="dropdow-content__elemento">
+                            <p>Tienes 3 nuevas notificaciones</p>
+                        </div>
+                        <div class="dropdow-content__elemento">
+                            <p>Tienes 3 nuevas notificaciones</p>
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="main__section2">
             <form class="main__section2__form" action="">
                 <div class="main__section2__form__container">
-                    <input class="main__section2__form__container__input__img" type="image" src="../assets/lupaIcon.png" alt="Enviar" />
-                    <input class="main__section2__form__container__input" type="text" placeholder="buscar" />
+                    <input class="main__section2__form__container__input__img" type="image" src="../assets/lupaIcon.png" alt="Buscar" />
+                    <input class="main__section2__form__container__input" type="text" placeholder="Buscar" />
                 </div>
-              
             </form>
         </section>
         
@@ -137,7 +169,7 @@
             </div>
             
             <div class="main__section4__titulo">
-                <h2 class="main__section4__container1__h2">Pools Competitivas</h2>
+                <h2 class="main__section4__container1__h2">La Premier League</h2>
                 <a class="main__section4__container1__enlace" href="">Ver mas</a>
             </div>
 
@@ -193,19 +225,174 @@
                 </div>
             </div>
 
-
             <div class="main__section4__titulo">
-                <h2 class="main__section4__container1__h2">Equipos Populares</h2>
+                <h2 class="main__section4__container1__h2">Champions League</h2>
                 <a class="main__section4__container1__enlace" href="">Ver mas</a>
             </div>
 
-
-            
             <div class="main__section4__container1">
                 
-                
+                <div class="main__section4__container1__container">
+                    <h3 class="main__section4__container1__container__h3">Pools populares de:</h3>
+                    <div class="main__section4__container1__container__match">
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaAzulgran.webp" alt="camisetaequipo1">
+                        <p class="main__section4__container1__container__match__p">Real Madrid vs Barcelona</p>
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaBlanca.webp" alt="camisetaequipo2">
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil4.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de: </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil5.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <a class="main__section4__container1__container__enlace" href="">Ver mas</a>
+                    <p class="main__section4__container1__container__p">Gana <span>25</span>pts</p>
+                </div>
+                <div class="main__section4__container1__container">
+                    <h3 class="main__section4__container1__container__h3">Pools populares de:</h3>
+                    <div class="main__section4__container1__container__match">
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaBlanca.webp" alt="camisetaequipo1">
+                        <p class="main__section4__container1__container__match__p">Real Madrid vs Barcelona</p>
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaAzulgran.webp" alt="camisetaequipo2">
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil6.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de: </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil4.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <a class="main__section4__container1__container__enlace" href="">Ver mas</a>
+                    <p class="main__section4__container1__container__p">Gana <span>25</span>pts</p>
+                </div>
+            </div>
+            <div class="main__section4__titulo">
+                <h2 class="main__section4__container1__h2">De tu equipo</h2>
+                <a class="main__section4__container1__enlace" href="">Ver mas</a>
             </div>
 
+            <div class="main__section4__container1">
+                
+                <div class="main__section4__container1__container">
+                    <h3 class="main__section4__container1__container__h3">Pools populares de:</h3>
+                    <div class="main__section4__container1__container__match">
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaAzulgran.webp" alt="camisetaequipo1">
+                        <p class="main__section4__container1__container__match__p">Real Madrid vs Barcelona</p>
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaBlanca.webp" alt="camisetaequipo2">
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil4.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de: </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil5.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <a class="main__section4__container1__container__enlace" href="">Ver mas</a>
+                    <p class="main__section4__container1__container__p">Gana <span>25</span>pts</p>
+                </div>
+                <div class="main__section4__container1__container">
+                    <h3 class="main__section4__container1__container__h3">Pools populares de:</h3>
+                    <div class="main__section4__container1__container__match">
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaBlanca.webp" alt="camisetaequipo1">
+                        <p class="main__section4__container1__container__match__p">Real Madrid vs Barcelona</p>
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaAzulgran.webp" alt="camisetaequipo2">
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil6.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de: </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil4.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <a class="main__section4__container1__container__enlace" href="">Ver mas</a>
+                    <p class="main__section4__container1__container__p">Gana <span>25</span>pts</p>
+                </div>
+            </div>
+            <div class="main__section4__titulo">
+                <h2 class="main__section4__container1__h2">Internacional</h2>
+                <a class="main__section4__container1__enlace" href="">Ver mas</a>
+            </div>
+
+            <div class="main__section4__container1">
+                
+                <div class="main__section4__container1__container">
+                    <h3 class="main__section4__container1__container__h3">Pools populares de:</h3>
+                    <div class="main__section4__container1__container__match">
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaAzulgran.webp" alt="camisetaequipo1">
+                        <p class="main__section4__container1__container__match__p">Real Madrid vs Barcelona</p>
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaBlanca.webp" alt="camisetaequipo2">
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil4.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de: </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil5.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <a class="main__section4__container1__container__enlace" href="">Ver mas</a>
+                    <p class="main__section4__container1__container__p">Gana <span>25</span>pts</p>
+                </div>
+                <div class="main__section4__container1__container">
+                    <h3 class="main__section4__container1__container__h3">Pools populares de:</h3>
+                    <div class="main__section4__container1__container__match">
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaBlanca.webp" alt="camisetaequipo1">
+                        <p class="main__section4__container1__container__match__p">Real Madrid vs Barcelona</p>
+                        <img class="main__section4__container1__container__match__img" src="../assets/camisetaAzulgran.webp" alt="camisetaequipo2">
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil6.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <div class="main__section4__container1__container__usuario">
+                        <p class="main__section4__container1__container__usuario__p">Pool de: </p>
+                        <img class="main__section4__container1__container__usuario__img" src="../assets/imagenPerfil4.webp" alt="perfilusuario">
+                        <p class="main__section4__container1__container__usuario__p">Espacio: <span>5/16</span></p>
+                        <a class="main__section4__container1__container__usuario__enlace" href="">Unirse</a>
+
+                    </div>
+                    <a class="main__section4__container1__container__enlace" href="">Ver mas</a>
+                    <p class="main__section4__container1__container__p">Gana <span>25</span>pts</p>
+                </div>
+            </div>
             
         </section>
            
