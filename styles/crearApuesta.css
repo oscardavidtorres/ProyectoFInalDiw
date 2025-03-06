@@ -15,10 +15,7 @@
     --extra-rojo: #FB4915;
     --extra-grisaceo: #DDDDDD;
     --blanco: #fff;
-
-
 }
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -39,9 +36,7 @@ body {
     align-items: center;
     height: 10rem;
 }
-.header__section1{
 
-}
 .header__section1__logo{
     width: 27vw;
 }
@@ -65,8 +60,6 @@ body {
     align-items: center; 
     flex-direction: column;
 }
-
-
 .header__section2__nav__container__enlace__img {
     width: 3vw;
     height: 3vw;
@@ -82,8 +75,6 @@ body {
     color: var(--blanco);
     font-size: 1.3rem;
 }
-
-
 .main{
     background-color: var(--extra-negro);
     display: flex;
@@ -172,9 +163,6 @@ color: var(--blanco);
     height: 3vw;
     object-fit: contain;
 }
-
-
-
 .main__section2 {
     display: flex;
     justify-content: center;
