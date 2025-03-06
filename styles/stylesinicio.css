@@ -27,7 +27,7 @@ a{
     text-decoration: none;
 }
 body {
-    font-family: "Orbitron", serif;
+    font-family: "Orbitron SC", serif;
 }
 .header{
     background-color: var(--secundario-azul);

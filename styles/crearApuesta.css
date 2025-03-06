@@ -239,13 +239,12 @@ color: var(--blanco);
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid var(--blanco);
-    transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .main__section2__form__submit:hover {
     background: var(--color-primario-hover, #0056b3);
 }
-
 
 .footer {
     background-color: var(--secundario-azul);
@@ -306,7 +305,6 @@ color: var(--blanco);
 .footer__seccion4__img {
     width: 6rem;
 }
-
 
 @media (max-width: 1023px) {
     .header {
