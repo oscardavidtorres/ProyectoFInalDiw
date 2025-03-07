@@ -78,7 +78,7 @@
                 <div class="main__section1__container2__enlace">
                     <input type="checkbox" id="notificaciones-toggle" class="toggle-input">
                     <label for="notificaciones-toggle">
-                        <img class="main__section1__container2__enlace__img" src="../assets/notificacionesIcon.png" alt="notificaciones">
+                        <img class="main__section1__container2__enlace__img main__section1__container2__enlace__img__noti" src="../assets/notificacionesIcon.png" alt="notificaciones">
                     </label>
                     <div class="dropdown-content">
                         <div class="dropdow-content__elemento">
@@ -189,6 +189,32 @@
             </div>
         </section>
     </footer>
-
+    <div class="spinner-container">
+        <div class="spinner"></div>
+    </div>
+    <script src="../scripts/app.js"></script>
+    <script>
+        const form = document.querySelector('.main__section2__form');
+        const inputs = form.querySelectorAll('input');
+        
+        form.addEventListener('submit', function(event) {
+            let valid = true;
+    
+            inputs.forEach(input => {
+                if (input.value.trim() === '') { // Verifica si el campo está vacío
+                    input.classList.add('shake');
+                    valid = false;
+                } else {
+                    input.classList.remove('shake');
+                }
+            });
+    
+            // Si hay un error, previene el envío del formulario
+            if (!valid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+    
 </body>
 </html>

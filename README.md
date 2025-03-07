@@ -41,3 +41,14 @@ Para más información sobre el uso y atribuciones de este proyecto, consulta el
 
 ## Versiones
 Actualmente esta es la version 0 del proyecto pero se continuara trabajando en este a lo largo del tiempo y mejorando los elementos para que se vea mejor ademas de añadir paginas web que estan pendientes o funcionalidades no incluidas aun
+## Versión 1
+
+En esta versión, he implementado varias mejoras visuales y animaciones:
+
+- **Animaciones en botones:** Los botones del header y de las páginas principales ahora cambian de color con una transición suave de `0.3s`.
+- **Notificaciones:** El botón de notificaciones comienza a parpadear `20 segundos` después de cargar la página, simulando la llegada de una notificación.
+- **Spinner de carga:** Se ha añadido un spinner de `1 segundo` al cargar la página, acompañado de un efecto *slide-in* para los elementos más importantes.
+- **Validación en la creación de apuestas:** Si se intenta crear una apuesta vacía, los campos vacíos se agitan (*shake effect*) para indicar el error.
+- **Interacción con apuestas:** Al pasar el cursor sobre una apuesta:
+  - Se eleva ligeramente.
+  - Se resalta con un borde azul de `2px`, destacando la tarjeta seleccionada.

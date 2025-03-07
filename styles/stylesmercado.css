@@ -28,7 +28,7 @@ a{
 }
 
 body {
-    font-family: "Orbitron SC", serif;
+    font-family: "Orbitron", serif;
 }
 .header{
     background-color: var(--secundario-azul);
@@ -83,7 +83,7 @@ body {
     text-align: center; 
     padding-top: 20px;
     color: var(--blanco);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -102,11 +102,11 @@ padding: 2rem;
 }
 .main__section1__container1__h2{
     color: var(--verde-primario);
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 .main__section1__container1__span{
     color: var(--extra-grisaceo);
-    font-size: 3rem;
+    font-size: 1.5rem;
 
 }
 .main__section1__container2 {
@@ -140,12 +140,12 @@ padding: 2rem;
     cursor: pointer;
 }
 
-/* Ocultar los checkbox */
+
 .toggle-input {
     display: none;
 }
 
-/* Estilo para los desplegables */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -155,7 +155,7 @@ padding: 2rem;
     width: 20vw;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 10;
-    right: 100%;  /* Hace que el desplegable esté a la izquierda */
+    right: 100%;  
     top: 0;
     margin-right: 10px; 
 }
@@ -164,7 +164,7 @@ padding: 2rem;
     border: 1px solid var(--blanco);
     margin: 10px;
 }
-/* Mostrar el desplegable cuando el checkbox esté marcado */
+
 #cartera-toggle:checked ~ .dropdown-content {
     display: block;
 }
@@ -173,11 +173,32 @@ padding: 2rem;
     display: block;
 }
 
-/* Opcional: Añadir animación */
+
 .dropdown-content p {
     color: var(--blanco);
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
+
+.main__section1__container2__enlace__img__noti {
+    
+    animation: parpadeoIcono 1.5s infinite alternate;
+    /* Simula una notificacion */
+    animation-delay: 20s; 
+}
+
+
+@keyframes parpadeoIcono {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .main__section1__container2__enlace__img {
     width: 3vw;
@@ -254,14 +275,14 @@ padding: 2rem;
 }
 .main__section4__container1__h2{
     color: var(--blanco);
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 .main__section4__container1__enlace{
     color: var(--blanco);
     width: 8vw;
     text-align: center;
     border: solid 1px var(--blanco);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     border-radius: 10px;
 }
 .main__section4__container1__container{
@@ -279,12 +300,12 @@ padding: 2rem;
 .main__section4__container1__container:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-
+    border: solid 1.5px var(--secundario-azul);
 }
 
 .main__section4__container1__container__h3{
     color: var(--blanco);
-    font-size: 2rem;
+    font-size: 1.3rem;
     border-bottom: 2px solid var(--blanco);
 }
 .main__section4__container1__container__match{
@@ -297,7 +318,7 @@ padding: 2rem;
 }
 .main__section4__container1__container__match__p{
     color: var(--blanco);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .main__section4__container1__container__match__img{
     width: 2rem;
@@ -306,7 +327,7 @@ padding: 2rem;
     display: flex;
     justify-content: space-around;
     color: var(--blanco);
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 3vw;
 }
 .main__section4__container1__container__usuario__img{
@@ -325,9 +346,12 @@ padding: 2rem;
     height: 4vh;
     text-align: center;
     border: solid 1px var(--blanco);
-    font-size: 1.3rem;
+    font-size: 1rem;
     border-radius: 10px;
     transition: background-color 0.3s, ease;
+}
+.main__section4__container1__enlace:hover{
+    background-color: var(--secundario-azul);
 }
 .main__section4__container1__container__usuario__enlace:hover{
     background-color: var(--secundario-azul);
@@ -339,7 +363,7 @@ padding: 2rem;
     height: 4vh;
     text-align: center;
     border: solid 1px var(--blanco);
-    font-size: 1.3rem;
+    font-size: 1rem;
     border-radius: 10px;
     transition: background-color 0.3s, ease;
 }
@@ -352,18 +376,18 @@ padding: 2rem;
     width: 30vw;
     border: 1px solid var(--extra-gris);
 }
-
+.main__section4__container1__container__p{
+    color: var(--verde-cuarto);
+    font-size: 1rem;
+}
 .main__section4__creapuesta {
     position: fixed; 
     right: 1px; 
     top: 75%; 
     transform: translateY(-50%); 
-    z-index: 100; 
+    z-index: 1000; 
 }
-.main__section4__container1__container__p{
-    color: var(--verde-cuarto);
-    font-size: 1.2rem;
-}
+
 
 .main__section4__creapuesta__enlace {
     display: flex;
@@ -374,7 +398,7 @@ padding: 2rem;
     padding: .8rem 1rem;
     border-radius: 10px 0 0 10px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: bold;
     transition: background-color 0.3s, transform 0.2s;
 }
@@ -427,7 +451,7 @@ padding: 2rem;
 .footer__seccion2__h3, .footer__seccion3__h3, 
 .footer__seccion4__h3 {
     color: var(--verde-primario);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .footer__seccion2__enlace, 
@@ -459,6 +483,7 @@ padding: 2rem;
 .footer__seccion4__img {
     width: 6rem;
 }
+
 
 @media (max-width: 1023px) {
     .header {
@@ -797,4 +822,65 @@ padding: 2rem;
     .footer__seccion4__img {
         width: 70px;
     }
+}
+
+.spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--extra-negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--verde-primario);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+body:not(.loaded) .spinner-container {
+    display: flex;
+}
+
+
+body.loaded .spinner-container {
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInEffect 1s ease-out forwards;
+}
+
+@keyframes fadeInEffect {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.main__section1,.main__section2,.main__section3, .header {
+    animation-delay: 0.5s;
+    animation: fadeInEffect 1s ease-out forwards;
 }
