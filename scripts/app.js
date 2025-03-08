@@ -26,7 +26,6 @@ asistente.addEventListener("mouseleave", () => {
 setInterval(() => {
     let balon = document.getElementById("balon");
     let balonModal = document.getElementById("balon-modal");
-    balon.src = "../assets/balonIaPestañeoMod.png";
     balonModal.src = "../assets/balonIaPestañeoMod.png";
     setTimeout(() => {
         balon.src = "../assets/balonIaNormal.png";
