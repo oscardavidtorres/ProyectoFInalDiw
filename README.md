@@ -52,3 +52,5 @@ En esta versión, he implementado varias mejoras visuales y animaciones:
 - **Interacción con apuestas:** Al pasar el cursor sobre una apuesta:
   - Se eleva ligeramente.
   - Se resalta con un borde azul de `2px`, destacando la tarjeta seleccionada.
+
+Ademas del asistente de Ia en las paginas principales que estara cambiara cada poco tiempo a otra imagen que simula el pestañeo de este balon
