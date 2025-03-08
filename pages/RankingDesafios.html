@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
     
@@ -285,7 +286,27 @@
     
             </section>
         </div>
+        <div id="asistente" class="fixed bottom-6 right-6 cursor-pointer flex flex-col items-center">
+                
+            <div id="tooltip" class="mb-2 bg-gray-900 text-white text-sm px-3 py-1 rounded-md shadow-lg opacity-0 transition-opacity duration-300">
+                Habla conmigo
+            </div>
+            <div class="w-18 h-18 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform relative">
+                <img src="../assets/balonIa2.png" id="balon" class="w-12 h-12  alt="Asistente">
+            </div>
+        </div>
         
+        
+        <div id="modal" class="fixed inset-0 backdrop-blur-lg  bg-opacity-50 hidden flex items-center justify-center">
+            <div class="bg-white p-8 rounded-lg shadow-xl w-96 relative">
+                <button id="cerrar" class="absolute top-2 right-2 text-gray-600 text-2xl">X</button>
+                <div class="flex flex-col items-center">
+                    <img src="../assets/balonIa2.png" id="balon-modal" class="w-24 h-24 animate-bounce" alt="Asistente">
+                    <h2 class="text-xl font-bold mt-4">Asistente de One Goal</h2>
+                    <p class="text-gray-700 mt-2">¿En qué puedo ayudarte hoy?</p>
+                </div>
+            </div>
+        </div>
 
         <div class="main__section4__creapuesta">
             <a class="main__section4__creapuesta__enlace" href="CrearApuesta.html">Crear Apuesta <img class="main__section4__creapuesta__img" src="../assets/CrearApuesta.png" alt="pelotaapuesta"></a>
