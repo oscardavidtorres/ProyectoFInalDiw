@@ -440,6 +440,9 @@ padding: 2rem;
     font-size: 1.1rem;
     border-radius: 10px;
 }
+.main__section4__container1__container__enlaceequipos:hover{
+    background-color: var(--secundario-azul);
+}
 .main__section4__container1__container__estadisticas__p{
     color: var(--blanco);
     font-size: .9rem;
