@@ -53,4 +53,4 @@ En esta versión, he implementado varias mejoras visuales y animaciones:
   - Se eleva ligeramente.
   - Se resalta con un borde azul de `2px`, destacando la tarjeta seleccionada.
 
-Ademas del asistente de Ia en las paginas principales que estara cambiara cada poco tiempo a otra imagen que simula el pestañeo de este balon
+Ademas del asistente de Ia en las paginas principales que estara botando y cambiara cada poco tiempo a otra imagen que simula el pestañeo de este balon.
