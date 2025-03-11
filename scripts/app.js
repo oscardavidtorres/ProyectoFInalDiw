@@ -29,6 +29,8 @@ setInterval(() => {
     balonModal.src = "../assets/balonIaPestañeoMod.png";
     setTimeout(() => {
         balon.src = "../assets/balonIaNormal.png";
+        balon.alt="Balón de futbol"
         balonModal.src = "../assets/balonIaNormal.png";
+        balonModal.alt="Balón de futbol"
     }, 300);
 }, 5000);
