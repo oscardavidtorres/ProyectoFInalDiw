@@ -298,7 +298,10 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
-    padding: .5rem;
+    padding: .8rem;
+    min-width: 150px; /* Asegurando un tamaño adecuado */
+    height: 44px; /* Altura mínima para accesibilidad */
+    text-align: center; 
 }
 
 .main__section__form__input__enviar:hover {
@@ -311,6 +314,7 @@ body {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 0.5rem;
+    padding: 2rem;
 }
 
 .main__section__form__enlace:hover {

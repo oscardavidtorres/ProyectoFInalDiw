@@ -78,6 +78,7 @@ body {
     border-radius: 5px;
     padding: .5rem;
     margin: .5rem 0;
+    color: var(--blanco);
     
 }
 .main__form__input__submit{

@@ -19,36 +19,36 @@
 
         <section class="header__section2">
             <nav class="header__section2__nav">
-                <div class="header__section2__nav__container">
+                <article class="header__section2__nav__container">
                     <a  href="MercadoApuestas.html" class="header__section2__nav__container__enlace">
                         <img class="header__section2__nav__container__enlace__img" src="../assets/apuestaIcon.png" alt="iconoapuesta">
                     </a>
                     <p class="header__section2__nav__container__p">Apuestas</p>
-                </div>
-                <div class="header__section2__nav__container">
+                </article>
+                <article class="header__section2__nav__container">
                     <a class="header__section2__nav__container__enlace">
                         <img class="header__section2__nav__container__enlace__img" src="../assets/rankingicon.png" alt="iconoRanking">
                     </a>
                     <p class="header__section2__nav__container__p">Ranking</p>
-                </div>
-                <div class="header__section2__nav__container">
+                </article>
+                <article class="header__section2__nav__container">
                     <a class="header__section2__nav__container__enlace">
                         <img class="header__section2__nav__container__enlace__img" src="../assets/socialIcon.png" alt="socialIcon">
                     </a>
                     <p class="header__section2__nav__container__p">Social</p>
-                </div>
-                <div class="header__section2__nav__container">
+                </article>
+                <article class="header__section2__nav__container">
                     <a class="header__section2__nav__container__enlace">
                         <img class="header__section2__nav__container__enlace__img" src="../assets/equipoIcon.png" alt="equipoIcon">
                     </a>
                     <p class="header__section2__nav__container__p">Equipo</p>
-                </div>
-                <div class="header__section2__nav__container">
+                </article>
+                <article class="header__section2__nav__container">
                     <a href="../pages/Perfil.html" class="header__section2__nav__container__enlace">
                         <img class="header__section2__nav__container__enlace__img" src="../assets/iconoPerfil.png" alt="iconoPerfil">
                     </a>
                     <p class="header__section2__nav__container__p">Perfil</p>
-                </div>  
+                </article>  
                
             </nav>
             
@@ -57,98 +57,96 @@
 
     <main class="main">
         <section class="main__section1">
-            <div class="main__section1__container1">
+            <article class="main__section1__container1">
                 <h2>Crear apuesta</h2>
-            </div>
-            <div class="main__section1__container2">
-                <div class="main__section1__container2__enlace">
+            </article>
+            <article class="main__section1__container2">
+                <section class="main__section1__container2__enlace">
                     <input type="checkbox" id="cartera-toggle" class="toggle-input">
                     <label for="cartera-toggle">
                         <img class="main__section1__container2__enlace__img" src="../assets/carteraIcon.png" alt="cartera">
                     </label>
                     <div class="dropdown-content">
-                        
-                            <p>Tienes 22,80€</p>
-                            <a>Añadir</a>
-                       
-                        
-
+                        <p>Tienes 22,80€</p>
+                        <a>Añadir</a>
                     </div>
-                </div>
+                </section>
             
-                <div class="main__section1__container2__enlace">
+                <section class="main__section1__container2__enlace">
                     <input type="checkbox" id="notificaciones-toggle" class="toggle-input">
                     <label for="notificaciones-toggle">
                         <img class="main__section1__container2__enlace__img main__section1__container2__enlace__img__noti" src="../assets/notificacionesIcon.png" alt="notificaciones">
                     </label>
-                    <div class="dropdown-content">
-                        <div class="dropdow-content__elemento">
+                    <article class="dropdown-content">
+                        <article class="dropdow-content__elemento">
                             <p>Tienes 3 nuevas notificaciones</p>
-                        </div>
-                        <div class="dropdow-content__elemento">
+                        </article>
+                        <article class="dropdow-content__elemento">
                             <p>Tienes 3 nuevas notificaciones</p>
-                        </div>
-                        <div class="dropdow-content__elemento">
+                        </article>
+                        <article class="dropdow-content__elemento">
                             <p>Tienes 3 nuevas notificaciones</p>
-                        </div>
-
-                        
-                        
-                    </div>
-                </div>
-            </div>
+                        </article>
+                    </article>
+                </section>
+            </article>
         </section>
 
         <section class="main__section2">
             <form class="main__section2__form">
                 <label class="main__section2__form__label" for="tipo">Tipo</label>
                 <div class="main__section2__form__checkbox-group">
-                    <input class="main__section2__form__checkbox" type="checkbox" name="tipo" id="">
-                    <label for="">Publico</label>
-                    <input class="main__section2__form__checkbox" type="checkbox" name="tipo" id="">
-                    <label for="">Privado</label>
-                    <input class="main__section2__form__checkbox" type="checkbox" name="tipo" id="">
-                    <label for="">Amigos</label>
+                    <input class="main__section2__form__checkbox" type="radio" name="tipo" id="publico">
+                    <label for="publico">Publico</label>
+    
+                    <input class="main__section2__form__checkbox" type="radio" name="tipo" id="privado">
+                    <label for="privado">Privado</label>
+    
+                    <input class="main__section2__form__checkbox" type="radio" name="tipo" id="amigos">
+                    <label for="amigos">Amigos</label>
                 </div>
+            
         
                 <label class="main__section2__form__label" for="poolname">Nombre de Pool</label>
-                <input class="main__section2__form__input" type="text" name="poolname" id="">
+                <input class="main__section2__form__input" type="text" name="poolname" id="poolname">
         
                 <label class="main__section2__form__label" for="partido">Partido</label>
-                <input class="main__section2__form__input" type="text" name="partido" id="">
+                <input class="main__section2__form__input" type="text" name="partido" id="partido">
         
                 <label class="main__section2__form__label" for="monto">Monto</label>
-                <input class="main__section2__form__input" type="text" name="monto" id="">
+                <input class="main__section2__form__input" type="text" name="monto" id="monto">
         
                 <label class="main__section2__form__label" for="tipoApuesta">Tipo Apuesta</label>
-                <input class="main__section2__form__input" type="text" name="tipoApuesta" id="">
+                <input class="main__section2__form__input" type="text" name="tipoApuesta" id="tipoApuesta">
         
                 <label class="main__section2__form__label" for="contrasena">Contraseña</label>
-                <input class="main__section2__form__input" type="password" name="contrasena" id="">
+                <input class="main__section2__form__input" type="password" name="contrasena" id="contrasena">
         
                 <label class="main__section2__form__label" for="codigoInvitacion">Código Invitación</label>
-                <input class="main__section2__form__input" type="text" name="codigoInvitacion" id="">
+                <input class="main__section2__form__input" type="text" name="codigoInvitacion" id="codigoInvitacion">
         
                 <label class="main__section2__form__label" for="numPersonas">Número de personas</label>
-                <input class="main__section2__form__input" type="number" name="numPersonas" id="">
+                <input class="main__section2__form__input" type="number" name="numPersonas" id="numPersonas">
         
                 <label class="main__section2__form__label" for="checkout">Posibilidad checkout</label>
-                <div class="main__section2__form__checkbox-group">
-                    <input class="main__section2__form__checkbox" type="checkbox" name="checkout" value="si" id="">
-                    <label for="">Si</label>
-                    <input class="main__section2__form__checkbox" type="checkbox" name="checkout" value="no" id="">
-                    <label for="">No</label>
-                </div>
+                <article class="main__section2__form__checkbox-group">
+                    <input class="main__section2__form__checkbox" type="radio" name="checkout" value="si" id="si">
+                    <label for="si">Si</label>
+    
+                    <input class="main__section2__form__checkbox" type="radio" name="checkout" value="no" id="no">
+                    <label for="no">No</label>
+                </article>
         
                 <label class="main__section2__form__label" for="tipoPool">Tipo Pool</label>
                 <div class="main__section2__form__checkbox-group">
-                   
-                    <input class="main__section2__form__checkbox" type="checkbox" name="tipoPool" id="">
-                    <label for="">Competitivo</label>
-                    <input class="main__section2__form__checkbox" type="checkbox" name="tipoPool" id="">
-                    <label for="">Amistoso</label>
-                    <input class="main__section2__form__checkbox" type="checkbox" name="tipoPool" id="">
-                    <label for="">Casual</label>
+                    <input class="main__section2__form__checkbox" type="radio" name="tipoPool" id="competitivo">
+                    <label for="competitivo">Competitivo</label>
+    
+                    <input class="main__section2__form__checkbox" type="radio" name="tipoPool" id="amistoso">
+                    <label for="amistoso">Amistoso</label>
+    
+                    <input class="main__section2__form__checkbox" type="radio" name="tipoPool" id="casual">
+                    <label for="casual">Casual</label>
                 </div>
         
                 <input class="main__section2__form__submit" type="submit" value="Crear Apuesta">
@@ -179,20 +177,20 @@
         </section>
         <section class="footer__seccion4">
             <h3 class="footer__seccion4__h3">Socials</h3>
-            <div class="footer__seccion4__container">
+            <article class="footer__seccion4__container">
                 <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="youtube_icono"></a>
                 <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="instagram_icono"></a>
                 <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="facebook_icono"></a>
-            </div>
-            <div class="footer__seccion4__apps">
+            </article>
+            <article class="footer__seccion4__apps">
                 <a class="footer__seccion4__enlace" href="#"><img class="footer__seccion4__img" src="../assets/appStore.png" alt="appstore_icono"></a>
                 <a class="footer__seccion4__enlace" href="#"><img class="footer__seccion4__img" src="../assets/android.png" alt="android_icono"></a>
-            </div>
+            </article>
         </section>
     </footer>
-    <div class="spinner-container">
+    <section class="spinner-container">
         <div class="spinner"></div>
-    </div>
+    </section>
     <script src="../scripts/app.js"></script>
     <script>
         const form = document.querySelector('.main__section2__form');

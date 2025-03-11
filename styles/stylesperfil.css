@@ -240,7 +240,7 @@ body {
     border: solid 1px var(--blanco);
     padding: .7rem;
     border-radius: 10px;
-    
+    color: var(--blanco);
 }
 /* .main__section2__form__input__submit{
     margin-top: 1rem;
@@ -251,6 +251,9 @@ body {
     background-color: var(--extra-grisaceo);
     border-radius: 5px;
     margin: 0 0 1rem 0;
+}
+.main__section2__form__inputfile{
+    color: var(--blanco);
 }
 
 .footer {

@@ -11,11 +11,9 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
-    <header class="header">
+      <header class="header">
         <a class="header__enlace"><img class="header__logo" src="../assets/logoOneGoal.png" alt="logo"></a>
     </header>
-
     <main class="main">
 
         <h2 class="main__h2">Crea tu Cuenta</h2>
@@ -26,21 +24,22 @@
             <img class="main__img" src="../assets/logoOneGoal.png" alt="logo">
 
             <label class="main__form__label" for="correo">Correo electronico</label>
-            <input class="main__form__input" type="email" name="correo" />
+            <input id="correo" class="main__form__input" type="email" name="correo" />
             <label class="main__form__label" for="contrasena">Contraseña</label>
-            <input class="main__form__input" type="password" name="contrasena" />
+            <input id="contrasena" class="main__form__input" type="password" name="contrasena" />
             <label class="main__form__label" for="contrasenarepetida">Repita su contraseña</label>
-            <input class="main__form__input" type="password" name="contrasenarepetida" />
+            <input id="contrasenarepetida" class="main__form__input" type="password" name="contrasenarepetida" />
             <label class="main__form__label" for="nacimiento">Fecha de Nacimiento</label>
-            <input class="main__form__input" type="date" name="nacimiento" />
+            <input id="nacimiento" class="main__form__input" type="date" name="nacimiento" />
             <label class="main__form__label" for="pais">Pais</label>
-            <input class="main__form__input" type="text" name="pais" />
+            <input id="pais" class="main__form__input" type="text" name="pais" />
             <label class="main__form__label" for="codigoamigo">Codigo de invitacion</label>
-            <input class="main__form__input" type="number" name="codigoamigo" />
+            <input id="codigoamigo" class="main__form__input" type="number" name="codigoamigo" />
             <label class="main__form__label" for="equipo">Equipo</label>
-            <input class="main__form__input" type="text" name="equipo" />
+            <input id="equipo" class="main__form__input" type="text" name="equipo" />
 
-            <a href="PaginaInicio.html"><input class="main__form__input__submit" type="" value="Crear Cuenta"/></a>
+            
+            <button type="submit" class="main__form__input__submit">Crear Cuenta</button>
             <a class="main__form__enlace" href="iniciaSesion.html">¿Ya tienes Cuenta? Inicia Sesion</a>
 
         </form>
@@ -66,15 +65,11 @@
         </section>
         <section class="footer__seccion4">
             <h3 class="footer__seccion4__h3">Socials</h3>
-            <div class="footer__seccion4__container">
-                <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="youtube_icono"></a>
-            
-           
+            <article class="footer__seccion4__container">
+                <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="youtube_icono"></a>    
                 <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="instagram_icono"></a>
-            
-           
                 <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="facebook_icono"></a>
-            </div>
+            </article>
             <a class="footer__seccion4__enlace"><img class="footer__seccion4__img" src="../assets/appStore.png" alt="appstore_icono"></a>
             <a class="footer__seccion4__enlace"><img class="footer__seccion4__img"  src="../assets/appStore.png" alt="android_icono"></a>
         </section>
