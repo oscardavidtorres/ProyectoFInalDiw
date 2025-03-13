@@ -12,56 +12,67 @@
 </head>
 <body>
     <header class="header">
-        <a><img class="header__logo" src="../assets/logoOneGoal.png" alt="logo"></a>
+        <a href="#" title="Ir al inicio" aria-label="Logo One Goal - Ir al inicio">
+            <img class="header__logo" src="../assets/logoOneGoal.png" alt="Logo One Goal">
+        </a>
     </header>
 
     <main class="mainI">
-        <h1 class="main__h1">Inicia Sesion</h1>
+        <h1 class="main__h1">Inicia Sesión</h1>
         <section class="main__section">
-            <img class="main__section__img" src="../assets/logoOneGoal.png" alt="logo"/>
-            <a class="main__section__enlaces"><img class="main__section_img_enlaces_img" src="../assets/IniciaGoogle.png" alt="logoGoogle"></a>
+            <img class="main__section__img" src="../assets/logoOneGoal.png" alt="Logo One Goal"/>
+            <a class="main__section__enlaces" href="#" title="Iniciar sesión con Google" aria-label="Iniciar sesión con Google">
+                <img class="main__section_img_enlaces_img" src="../assets/IniciaGoogle.png" alt="Logo Google">
+            </a>
             <p class="main__section__p">o</p>
-
             <form class="main__section__form" method="">
                 <label class="main__section__form__label" for="usuario">Usuario o email</label>
-                <input id="usuario" class="main__section__form__input" type="text" name="usuario" />
+                <input id="usuario" class="main__section__form__input" type="text" name="usuario" placeholder="Ingresa tu usuario o email"/>
                 <label class="main__section__form__label" for="contrasena">Contraseña</label>
-                <input id="contrasena" class="main__section__form__input" type="password" name="contrasena" />
-
-                <button type="submit" class="main__section__form__input__enviar">Iniciar Sesion</button>
-                <a class="main__section__form__enlace" href="PaginaInicio.html">Entra</a>
-
+                <input id="contrasena" class="main__section__form__input" type="password" name="contrasena" placeholder="Ingresa tu contraseña"/>
+                <button type="submit" class="main__section__form__input__enviar" title="Iniciar sesión" aria-label="Iniciar sesión">Iniciar Sesión</button>
+                <a class="main__section__form__enlace" href="PaginaInicio.html" title="Ir a la página de inicio" aria-label="Ir a la página de inicio">Entra dando click aqui</a><br>
+                <a class="main__section__form__enlace" href="registro.html" title="Ir a la página de inicio" aria-label="Ir a la página de inicio">¿No tienes Cuenta?Crea una</a>
             </form>
-
         </section>
     </main>
 
     <footer class="footer">
         <section class="footer__seccion1">
-            <img class="footer__seccion1__img" src="../assets/logoOneGoal.png" alt="logo">
+            <img class="footer__seccion1__img" src="../assets/logoOneGoal.png" alt="Logo One Goal">
         </section>
         <section class="footer__seccion2">
             <h2 class="footer__seccion2__h3">Nosotros</h2>
-            <a class="footer__seccion2__enlace" href="">-Reglas</a>
-            <a class="footer__seccion2__enlace" href="">-Cookies</a>
-            <a class="footer__seccion2__enlace" href="">-Privacidad</a>
-            <a class="footer__seccion2__enlace" href="">-Juego Seguro</a>
+            <a class="footer__seccion2__enlace" href="#" title="Reglas de la aplicación" aria-label="Reglas de la aplicación">-Reglas</a>
+            <a class="footer__seccion2__enlace" href="#" title="Política de cookies" aria-label="Política de cookies">-Cookies</a>
+            <a class="footer__seccion2__enlace" href="#" title="Política de privacidad" aria-label="Política de privacidad">-Privacidad</a>
+            <a class="footer__seccion2__enlace" href="#" title="Información sobre juego seguro" aria-label="Información sobre juego seguro">-Juego Seguro</a>
         </section>
         <section class="footer__seccion3">
             <h2 class="footer__seccion3__h3">Ayuda</h2>
-            <a class="footer__seccion3__enlace" href="">-Ayuda</a>
-            <a class="footer__seccion3__enlace" href="">-Contacto</a>
-            <a class="footer__seccion3__enlace" href="">-Proteccion</a>
+            <a class="footer__seccion3__enlace" href="#" title="Centro de ayuda" aria-label="Centro de ayuda">-Ayuda</a>
+            <a class="footer__seccion3__enlace" href="#" title="Contacto" aria-label="Contacto">-Contacto</a>
+            <a class="footer__seccion3__enlace" href="#" title="Protección y seguridad" aria-label="Protección y seguridad">-Protección</a>
         </section>
         <section class="footer__seccion4">
             <h2 class="footer__seccion4__h3">Socials</h2>
             <article class="footer__seccion4__container">
-                <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="youtube_icono"></a>
-                <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="instagram_icono"></a>
-                <a class="footer__seccion4__container__enlace"><img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="facebook_icono"></a>
+                <a class="footer__seccion4__container__enlace" href="#" title="Visítanos en YouTube" aria-label="Visítanos en YouTube">
+                    <img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="YouTube">
+                </a>
+                <a class="footer__seccion4__container__enlace" href="#" title="Síguenos en Instagram" aria-label="Síguenos en Instagram">
+                    <img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="Instagram">
+                </a>
+                <a class="footer__seccion4__container__enlace" href="#" title="Encuéntranos en Facebook" aria-label="Encuéntranos en Facebook">
+                    <img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="Facebook">
+                </a>
             </article>
-            <a class="footer__seccion4__enlace"><img class="footer__seccion4__img" src="../assets/appStore.png" alt="appstore_icono"></a>
-            <a class="footer__seccion4__enlace"><img class="footer__seccion4__img"  src="../assets/appStore.png" alt="android_icono"></a>
+            <a class="footer__seccion4__enlace" href="#" title="Descargar en App Store" aria-label="Descargar en App Store">
+                <img class="footer__seccion4__img" src="../assets/appStore.png" alt="App Store">
+            </a>
+            <a class="footer__seccion4__enlace" href="#" title="Descargar en Google Play" aria-label="Descargar en Google Play">
+                <img class="footer__seccion4__img" src="../assets/appStore.png" alt="Google Play">
+            </a>
         </section>
     </footer>
     <section class="spinner-container">

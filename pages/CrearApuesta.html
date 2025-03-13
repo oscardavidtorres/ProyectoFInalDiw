@@ -14,44 +14,44 @@
      
     <header class="header">
         <section class="header__section1">
-            <a href="PaginaInicio.html"><img class="header__section1__logo" src="../assets/logoOneGoal.webp" alt="logo"></a>
+            <a href="PaginaInicio.html" title="Ir a la página de inicio" aria-label="Ir a la página de inicio">
+                <img class="header__section1__logo" src="../assets/logoOneGoal.webp" alt="Logo de One Goal">
+            </a>
         </section>
-
+    
         <section class="header__section2">
-            <nav class="header__section2__nav">
+            <nav class="header__section2__nav" aria-label="Navegación principal">
                 <article class="header__section2__nav__container">
-                    <a  href="MercadoApuestas.html" class="header__section2__nav__container__enlace">
-                        <img class="header__section2__nav__container__enlace__img" src="../assets/apuestaIcon.png" alt="iconoapuesta">
+                    <a href="MercadoApuestas.html" class="header__section2__nav__container__enlace" title="Ir a Mercado de Apuestas" aria-label="Ir a Mercado de Apuestas">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/apuestaIcon.png" alt="Ícono de apuestas">
                     </a>
                     <p class="header__section2__nav__container__p">Apuestas</p>
                 </article>
                 <article class="header__section2__nav__container">
-                    <a class="header__section2__nav__container__enlace">
-                        <img class="header__section2__nav__container__enlace__img" src="../assets/rankingicon.png" alt="iconoRanking">
+                    <a href="RankingDesafios.html" class="header__section2__nav__container__enlace" title="Ir al Ranking de Desafíos" aria-label="Ir al Ranking de Desafíos">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/rankingicon.png" alt="Ícono de ranking">
                     </a>
                     <p class="header__section2__nav__container__p">Ranking</p>
                 </article>
                 <article class="header__section2__nav__container">
-                    <a class="header__section2__nav__container__enlace">
-                        <img class="header__section2__nav__container__enlace__img" src="../assets/socialIcon.png" alt="socialIcon">
+                    <a class="header__section2__nav__container__enlace" title="Ir a la sección Social" aria-label="Ir a la sección Social">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/socialIcon.png" alt="Ícono social">
                     </a>
                     <p class="header__section2__nav__container__p">Social</p>
                 </article>
                 <article class="header__section2__nav__container">
-                    <a class="header__section2__nav__container__enlace">
-                        <img class="header__section2__nav__container__enlace__img" src="../assets/equipoIcon.png" alt="equipoIcon">
+                    <a class="header__section2__nav__container__enlace" title="Ir a la sección de Equipos" aria-label="Ir a la sección de Equipos">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/equipoIcon.png" alt="Ícono de equipo">
                     </a>
                     <p class="header__section2__nav__container__p">Equipo</p>
                 </article>
                 <article class="header__section2__nav__container">
-                    <a href="../pages/Perfil.html" class="header__section2__nav__container__enlace">
-                        <img class="header__section2__nav__container__enlace__img" src="../assets/iconoPerfil.png" alt="iconoPerfil">
+                    <a href="../pages/Perfil.html" class="header__section2__nav__container__enlace" title="Ir a tu perfil" aria-label="Ir a tu perfil">
+                        <img class="header__section2__nav__container__enlace__img" src="../assets/iconoPerfil.png" alt="Ícono de perfil">
                     </a>
                     <p class="header__section2__nav__container__p">Perfil</p>
                 </article>  
-               
             </nav>
-            
         </section>
     </header>
 
@@ -68,7 +68,7 @@
                     </label>
                     <div class="dropdown-content">
                         <p>Tienes 22,80€</p>
-                        <a>Añadir</a>
+                        <a href="/" title="Añade fondos">Añadir</a>
                     </div>
                 </section>
             
@@ -149,7 +149,7 @@
                     <label for="casual">Casual</label>
                 </div>
         
-                <input class="main__section2__form__submit" type="submit" value="Crear Apuesta">
+                <input class="main__section2__form__submit" type="submit" aria-label="Crear apuesta" value="Crear Apuesta">
             </form>
         </section>
         
@@ -160,32 +160,40 @@
 
     <footer class="footer">
         <section class="footer__seccion1">
-            <img class="footer__seccion1__img" src="../assets/logoOneGoal.png" alt="logo">
+            <img class="footer__seccion1__img" src="../assets/logoOneGoal.png" alt="Logo One Goal">
         </section>
         <section class="footer__seccion2">
-            <h3 class="footer__seccion2__h3">Nosotros</h3>
-            <a class="footer__seccion2__enlace" href="#">-Reglas</a>
-            <a class="footer__seccion2__enlace" href="#">-Cookies</a>
-            <a class="footer__seccion2__enlace" href="#">-Privacidad</a>
-            <a class="footer__seccion2__enlace" href="#">-Juego Seguro</a>
+            <h2 class="footer__seccion2__h3">Nosotros</h2>
+            <a class="footer__seccion2__enlace" href="#" title="Reglas de la aplicación" aria-label="Reglas de la aplicación">-Reglas</a>
+            <a class="footer__seccion2__enlace" href="#" title="Política de cookies" aria-label="Política de cookies">-Cookies</a>
+            <a class="footer__seccion2__enlace" href="#" title="Política de privacidad" aria-label="Política de privacidad">-Privacidad</a>
+            <a class="footer__seccion2__enlace" href="#" title="Información sobre juego seguro" aria-label="Información sobre juego seguro">-Juego Seguro</a>
         </section>
         <section class="footer__seccion3">
-            <h3 class="footer__seccion3__h3">Ayuda</h3>
-            <a class="footer__seccion3__enlace" href="#">-Ayuda</a>
-            <a class="footer__seccion3__enlace" href="#">-Contacto</a>
-            <a class="footer__seccion3__enlace" href="#">-Protección</a>
+            <h2 class="footer__seccion3__h3">Ayuda</h2>
+            <a class="footer__seccion3__enlace" href="#" title="Centro de ayuda" aria-label="Centro de ayuda">-Ayuda</a>
+            <a class="footer__seccion3__enlace" href="#" title="Contacto" aria-label="Contacto">-Contacto</a>
+            <a class="footer__seccion3__enlace" href="#" title="Protección y seguridad" aria-label="Protección y seguridad">-Protección</a>
         </section>
         <section class="footer__seccion4">
-            <h3 class="footer__seccion4__h3">Socials</h3>
+            <h2 class="footer__seccion4__h3">Socials</h2>
             <article class="footer__seccion4__container">
-                <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="youtube_icono"></a>
-                <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="instagram_icono"></a>
-                <a class="footer__seccion4__container__enlace" href="#"><img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="facebook_icono"></a>
+                <a class="footer__seccion4__container__enlace" href="#" title="Visítanos en YouTube" aria-label="Visítanos en YouTube">
+                    <img class="footer__seccion4__container__img" src="../assets/youtube.png" alt="YouTube">
+                </a>
+                <a class="footer__seccion4__container__enlace" href="#" title="Síguenos en Instagram" aria-label="Síguenos en Instagram">
+                    <img class="footer__seccion4__container__img" src="../assets/instagram.png" alt="Instagram">
+                </a>
+                <a class="footer__seccion4__container__enlace" href="#" title="Encuéntranos en Facebook" aria-label="Encuéntranos en Facebook">
+                    <img class="footer__seccion4__container__img" src="../assets/facebook.png" alt="Facebook">
+                </a>
             </article>
-            <article class="footer__seccion4__apps">
-                <a class="footer__seccion4__enlace" href="#"><img class="footer__seccion4__img" src="../assets/appStore.png" alt="appstore_icono"></a>
-                <a class="footer__seccion4__enlace" href="#"><img class="footer__seccion4__img" src="../assets/android.png" alt="android_icono"></a>
-            </article>
+            <a class="footer__seccion4__enlace" href="#" title="Descargar en App Store" aria-label="Descargar en App Store">
+                <img class="footer__seccion4__img" src="../assets/appStore.png" alt="App Store">
+            </a>
+            <a class="footer__seccion4__enlace" href="#" title="Descargar en Google Play" aria-label="Descargar en Google Play">
+                <img class="footer__seccion4__img" src="../assets/appStore.png" alt="Google Play">
+            </a>
         </section>
     </footer>
     <section class="spinner-container">
