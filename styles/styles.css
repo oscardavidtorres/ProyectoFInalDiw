@@ -325,7 +325,7 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .header {
         flex-direction: column;
         text-align: center;
@@ -335,6 +335,10 @@ body {
     }
     .header__login {
         padding: 0.5rem 2rem;
+    }
+    .seccion3__container{
+        gap: 0;
+        padding: 0;
     }
 }
 
