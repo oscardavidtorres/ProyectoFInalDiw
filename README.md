@@ -54,3 +54,13 @@ En esta versión, he implementado varias mejoras visuales y animaciones:
   - Se resalta con un borde azul de `2px`, destacando la tarjeta seleccionada.
 
 Ademas del asistente de Ia en las paginas principales que estara botando y cambiara cada poco tiempo a otra imagen que simula el pestañeo de este balon.
+
+## Versión 2  
+
+En esta versión, hemos mejorado la estructura del código reemplazando `divs` por elementos semánticos como `section` y `article`. Además, optimizamos la accesibilidad utilizando `title` y `aria-label`.  
+
+También aplicamos estilos CSS para resaltar los enlaces con un recuadro al navegar con `tab`, facilitando la identificación del foco y mejorando la usabilidad.  
+
+Utilizamos las herramientas de desarrollo de Google, como Lighthouse, para evaluar la accesibilidad, logrando una puntuación superior a 95.  
+
+Asimismo, aseguramos que todas las imágenes tengan texto alternativo y corregimos errores en los tamaños de tipografía para mejorar la legibilidad.

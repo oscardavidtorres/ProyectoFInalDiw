@@ -26,7 +26,11 @@
 body {
     font-family: "Orbitron", serif;
 }
-
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid var(--extra-rojo);
+    outline-offset: 3px;
+}
 .header{
     background-color: var(--secundario-azul);
     display: flex;
